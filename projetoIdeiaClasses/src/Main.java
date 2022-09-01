@@ -18,7 +18,7 @@ public class Main {
 
             if (escolha == 1) {
                 System.out.print("Entre com um numero: ");
-                numero = Integer.parseInt(input.nextLine());
+                numero = Integer.parseInt(input.nextLine()); //usar apenas o nextInt() faz o loop voltar para o inicio por algum motivo
                 System.out.print("Entre com uma palavra: ");
                 palavra = input.nextLine();
 
